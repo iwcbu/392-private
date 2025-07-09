@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calc | Projects</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <h1>The Blue Calc</h1>
+        </header>
+        <a href="projects.html"><h2 id="backbutt">Back to Projects</h2></a>
+        
+        <div class="container">
+                <main>
+                    <div id="calc">
+                            <label for="num1">First Number: </label>
+                            <input id="num1">
+                            <label for="num2">Second Number: </label>
+                            <input id="num2">
+
+                            <div id="calcBut">
+                                <button onclick="addition()"> + </button>
+                                <div><h4>First + Second</h4></div>
+                            </div>
+                            
+                            <div id="calcBut">
+                                <button onclick="subtraction()"> - </button>
+                                <div><h4>First - Second</h4></div>
+                            </div>
+
+                            <div id="calcBut">
+                                <button onclick="multiplication()"> * </button>
+                                <div><h4>First * Second</h4></div>
+                            </div>
+
+                            <div id="calcBut">
+                                <button onclick="division()"> / </button>
+                                <div><h4>First / Second</h4></div>
+                            </div>
+
+                            <div id="calcBut">
+                                <button onclick="power()"> ** </button>
+                                <div><h4>First ^ Second</h4></div>
+                            </div>
+
+                            <h3 id="output"></h3>
+                        </div>
+                </main>
+        </div>
+
+        <footer>
+            <h6>All Rights Reserved by Ian Campbell <a href="credits.html">Credits</a> ©</h6>
+        </footer>
+    </div>
+    <script src="app.js"></script>
+
+</body>
+</html>
