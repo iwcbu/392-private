@@ -10,7 +10,7 @@ export default function Home() {
                 </div>
                 <main>
                     <div id="homeContent">
-                        <img id="headshot" src="src/components/mains/imgs/headshot.jpeg" alt="Headshot of Ian"/>
+                        <img id="headshot" src="/imgs/headshot.jpeg" alt="Headshot of Ian"/>
                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita veniam,
                             et suscipit error aperiam doloremque assumenda. Odio esse fugit perspiciatis.
                             Dicta corporis deleniti nisi quisquam porro rerum ullam harum. Earum?
