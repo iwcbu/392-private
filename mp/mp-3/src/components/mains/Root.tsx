@@ -8,40 +8,27 @@ import Cert from "./Cert"
 import Ref from "./Ref";
 import {Routes, Route} from "react-router";
 import Projects from "./Projects";
+import { PageDiv } from "./StyledMains";
+import { Wrapper } from "./StyledMains";
+
 
 
 export default function Root() {
     return (
-        <>
+        <PageDiv>
             <Header/>
-            <Nav />
-            <Routes>
-                <Route
-                    path={`/`}
-                    element={<Home/>}
-                />
-                <Route
-                    path={`/background.html`}
-                    element={<Bg/>}
-                />
-                <Route
-                    path={`/project.html`}
-                    element={<Projects/>}
-                />
-                <Route
-                    path={`/certifications.html`}
-                    element={<Cert/>}
-                />
-                <Route  
-                    path={`/education.html`}
-                    element={<Edu/>}
-                />
-                <Route
-                    path={`/references.html`}
-                    element={<Ref/>}
-                />
-            </Routes>
+            <Wrapper>
+                <Nav />
+                <Routes>
+                    <Route path={"/"} element={<Home/>}/>
+                    <Route path={"/education.html"} element={<Edu/>}/>
+                    <Route path={"/background.html"} element={<Bg/>}/>
+                    <Route path={"/certifications.html"} element={<Cert/>}/>
+                    <Route path={"/references.html"} element={<Ref/>}/>
+                    <Route path={"/projects.html"} element={<Projects/>}/>
+                </Routes>
+            </Wrapper>
             <Footer/>
-        </>
+        </PageDiv>
     )
 }

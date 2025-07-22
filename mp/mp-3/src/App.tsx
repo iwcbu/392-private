@@ -1,17 +1,16 @@
 import Root from "./components/mains/Root.tsx";
-import { createBrowserRouter, RouterProvider } from 'react-router';
+import { createBrowserRouter, RouterProvider }from 'react-router';
 
-const router=createBrowserRouter(
+
+const router = createBrowserRouter(
   [
-    {path:"*",Component:Root}
+    {path:"*" , Component: Root}
   ]
 )
 
 export default function App() {
 
   return (
-    <>
-      <RouterProvider router={router}/>
-    </>
+    <RouterProvider router={router}/>
   )
 }

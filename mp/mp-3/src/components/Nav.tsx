@@ -1,8 +1,11 @@
 import {Link} from "react-router";
+import { NavSty } from "./mains/StyledMains";
+
+
 
 export default function Nav() {
     return (
-        <nav>
+        <NavSty>
             <ul>
                 <li><Link to={`/`}>Home</Link></li>
                 <li><Link to={`/background.html`}>Background</Link></li>
@@ -11,6 +14,6 @@ export default function Nav() {
                 <li><Link to={`/education.html`}>Education</Link></li>
                 <li><Link to={`/references.html`}>References</Link></li>
             </ul>
-        </nav>
+        </NavSty>
     )
 }
