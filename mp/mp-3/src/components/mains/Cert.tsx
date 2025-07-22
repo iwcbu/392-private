@@ -12,7 +12,7 @@ export default function Cert() {
                     <div id="certContent">
                         
                         <div id="cert">
-                            <img id="certImg" src="src/components/mains/imgs/cert1.png" alt="HTML and CSS Specialist Certification"/>
+                            <img id="certImg" src="/imgs/cert1.png" alt="HTML and CSS Specialist Certification"/>
                             <div className="pBox">
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita veniam, 
@@ -30,7 +30,7 @@ export default function Cert() {
                         </div>
 
                         <div id="cert">
-                            <img id="certImg" src="src/components/mains/imgs/cert2.png" alt="JS Specialist Certification"/>
+                            <img id="certImg" src="/imgs/cert2.png" alt="JS Specialist Certification"/>
                             <div className="pBox">
                                 <p>
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita veniam,

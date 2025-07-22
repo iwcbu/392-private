@@ -13,7 +13,7 @@ export default function Bg() {
                         <main>
                             <div id="bgContent" >
                                 <div id="bg1">
-                                    <img id="headshot" src="src/components/mains/imgs/bg1.jpg" alt="Me when I was younger"/>
+                                    <img id="headshot" src="/imgs/bg1.jpg" alt="Me when I was younger"/>
                                     <div id="pBox">
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita veniam,
                                             et suscipit error aperiam doloremque assumenda. Odio esse fugit perspiciatis.
@@ -40,10 +40,10 @@ export default function Bg() {
                                             quas accusantium, accusamus libero exercitationem quae odit illum
                                             delectus veritatis eligendi.</p>
                                     </div>
-                                    <img id="headshot" src="src/components/mains/imgs/bg2.jpg" alt="Me a little older"/>
+                                    <img id="headshot" src="/imgs/bg2.jpg" alt="Me a little older"/>
                                 </div>
                                 <div id="bg3">
-                                    <img id="headshot" src="src/components/mains/imgs/bg3.jpg" alt="Me in 2025"/>
+                                    <img id="headshot" src="/imgs/bg3.jpg" alt="Me in 2025"/>
                                     <div id="pBox">
                                         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita veniam,
                                             et suscipit error aperiam doloremque assumenda. Odio esse fugit perspiciatis.

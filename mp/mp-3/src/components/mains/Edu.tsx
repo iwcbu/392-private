@@ -12,7 +12,7 @@ export default function Edu() {
                     <div id="certContent">
                         <h3>University of New Haven</h3>
                         <div id="cert">
-                            <img id="certImg" src="src/components/mains/imgs/unh.png" alt="University of New Haven logo"/>
+                            <img id="certImg" src="/imgs/unh.png" alt="University of New Haven logo"/>
                             
                             <div className="pBox">
                                 <p>
@@ -30,7 +30,7 @@ export default function Edu() {
                             </div>
                         </div><h3>Boston University</h3>
                         <div id="cert">
-                            <img id="certImg" src="src/components/mains/imgs/bu.png" alt="Boston University logo"/>
+                            <img id="certImg" src="/imgs/bu.png" alt="Boston University logo"/>
                             
                             <div className="pBox">
                                 <p>

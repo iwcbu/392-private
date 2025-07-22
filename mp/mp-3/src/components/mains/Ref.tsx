@@ -12,7 +12,7 @@ export default function Ref() {
                         <div id="refContent">
                             
                             <div id="ref">
-                                <img id="refImg" src="src/components/mains/imgs/ref1.jpg" alt="Professor Januario"/>
+                                <img id="refImg" src="/imgs/ref1.jpg" alt="Professor Januario"/>
                                 <div className="pBox">
                                     <p>
                                         I'm aware of the sizing issue but refuse to use ai to solve my issues, 
@@ -32,7 +32,7 @@ export default function Ref() {
                             </div>
 
                             <div id="ref">
-                                <img id="refImg" src="src/components/mains/imgs/ref2.jpg" alt="Professor Sullivan"/>
+                                <img id="refImg" src="/imgs/ref2.jpg" alt="Professor Sullivan"/>
                                 <div className="pBox">
                                     <p>
                                         I will ask in class for your help in trying to solve this issue! 

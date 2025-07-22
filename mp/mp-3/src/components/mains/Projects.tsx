@@ -81,7 +81,7 @@ export default function Projects() {
 
                             <h3>Compiler Project</h3>
                             <div id="tab"> 
-                                <img src="src/components/mains/imgs/bc2.png" alt="Compiler Project"/>
+                                <img src="/imgs/bc2.png" alt="Compiler Project"/>
                                 <div> 
                                     <p id="pBox">
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita veniam,
